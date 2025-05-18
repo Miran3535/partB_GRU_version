@@ -7,7 +7,7 @@ import pandas as pd
 import torch
 from torch.utils.data import TensorDataset, DataLoader
 
-from algorithms.gru_model import GRUModel  # your GRU definition
+from models.gru_model import GRUModel # The GRU definition
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 SEQ_LENGTH    = 96      # 96×15 min = 24 h history window
