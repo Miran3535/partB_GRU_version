@@ -7,9 +7,9 @@ from sklearn.preprocessing import MinMaxScaler
 import torch
 from torch.utils.data import TensorDataset, DataLoader
 
-from models.gru_model import GRUModel  # make sure you have a GRUModel in models/gru_model.py
+from models.gru_model import GRUModel  
 
-# Configuration (exactly parallel to LSTM version)
+# Configuration 
 DATA_PKL    = os.path.normpath(os.path.join(os.path.dirname(__file__),
                                             '../data/traffic_model_ready.pkl'))
 MODELS_DIR  = os.path.normpath(os.path.join(os.path.dirname(__file__),
